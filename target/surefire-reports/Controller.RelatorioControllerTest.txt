@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Controller.RelatorioControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE!
+Controller.RelatorioControllerTest.testConverteData()  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Controller.RelatorioControllerTest.testConverteData(RelatorioControllerTest.java:45)
+
+Controller.RelatorioControllerTest.testQuantidadeDias()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Controller.RelatorioControllerTest.testQuantidadeDias(RelatorioControllerTest.java:53)
+
+Controller.RelatorioControllerTest.testInvestimentoTotal()  Time elapsed: 0.025 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <15> but was: <null>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
+	at Controller.RelatorioControllerTest.testInvestimentoTotal(RelatorioControllerTest.java:61)
+

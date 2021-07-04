@@ -1,0 +1,5 @@
+View/GeradorRelatorio.class
+Controller/RelatorioController.class
+View/CadastroAnuncio.class
+Controller/CalculadoraController.class
+Model/Anuncio.class
